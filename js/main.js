@@ -10,7 +10,7 @@ if (window.matchMedia && window.matchMedia('prefers-color-scheme: dark').matches
 // Checking darkMode in the localStorage
 
 if (localStorage.getItem('darkMode') === 'dark') {
-    btnDarkMode.classList.add('dark--mode-btn--active');
+    btnDarkMode.classList.add("dark-mode-btn--active");
     document.body.classList.add('dark');
 } else if (localStorage.getItem("darkMode") === "light") {
     btnDarkMode.classList.remove("dark-mode-btn--active");
